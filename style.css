@@ -1,67 +1,104 @@
 /* Reset do CSS*/
 /* ASTERISCO seleciona todos os elementos do documento HTML*/
 
-*{
+* {
     margin: 0;
     box-sizing: border-box;
-    }
-    
-    body{
-        width: 100%;
-        height: 100vh;
-        background-color: #b4b4b4;
-        padding: 40px 120px ;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    header, nav, main, footer{
-        width: 100% ;
-        background-color: white;
-        padding: 20px;
-        border-radius: 30px;
-    }
-    
-    main{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        gap: 8px;
-    }
-    
-   
-    aside,article{
-        background-color: #d9d9d9;
-        padding: 20px;
-        border-radius: 30px;
-    }
-    article{
-        width: 60%;
-    }
-  
-    
-    address{
-        background-color: #d9d9d9;
-        padding: 20px;
-        border-radius: 30px;
-    
-    }
-    
+}
 
-    @media(min-width:1601px){
-        body{
-            background-color: rgb(197, 197, 197);
-            padding: 55px 90px;
-            font-size: larger;
-        }
-        address,aside,article,header,main,nav,footer{
-            background-color: rgb(255, 255, 255);
-            color: rgb(0, 0, 0);
-        }
-    }
-    
-    
-    
-    
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #5b809e;
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#marca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+
+header,
+nav,
+main,
+footer {
+    width: 100%;
+    background-color: rgb(172, 191, 202);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+header ul {
+    box-sizing: border-box;
+    width: 350px;
+
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+aside {
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 50px;
+    margin: 30px;
+
+}
+
+aside a {
+    color: rgb(0, 0, 0);
+
+}
+
+
+article {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+article {
+    width: 60%;
+}
+
+
+address {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+address a {
+    color: black;
+}
+aside img {
+    width: 100%;
+   height: auto;
+}
