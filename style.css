@@ -71,7 +71,7 @@ aside {
 }
 
 aside a {
-    color: rgb(0, 0, 0);
+    color: rgb(8, 132, 248);
 
 }
 
@@ -97,8 +97,23 @@ address {
 
 address a {
     color: black;
+    padding: 5px;
 }
 aside img {
     width: 100%;
    height: auto;
 }
+aside h2{
+    padding: 10px;
+  
+    box-sizing: border-box;
+    background-color:  rgb(172, 191, 202);
+    border-radius: 20px;
+    margin: 15px;
+}
+
+aside p{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
